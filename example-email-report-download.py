@@ -1,4 +1,4 @@
-# Automate email report Cell PLus
+# Automate email report
 
 import string
 import re
