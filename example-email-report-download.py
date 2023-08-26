@@ -67,7 +67,7 @@ def read_email_from_gmail():
                   src_path = f'{OUTPUT_DIRECTORY_PATH}/{email_date}-{filename}'
                   dest_path = f'{OUTPUT_DIRECTORY_PATH}/{email_date}-{filename}'
                   src_book = openpyxl.load_workbook(src_path)
-                  src_sheet = src_book['Auto Pilot Report']
+                  src_sheet = src_book['Example Report']
                   dest_book = openpyxl.Workbook()
                   dest_sheet = dest_book.active
                   copy_rows(src_sheet, dest_sheet, 5, src_sheet.max_row)
